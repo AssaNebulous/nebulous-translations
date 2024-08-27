@@ -805,7 +805,7 @@
     <string name="Tournament_Competing">Competindo Torneio</string>
     <string name="Tournament_Registered">Torneio Registrado</string>
     <string name="Tournament">Torneio</string>
-    <string name="TourneyDescription">Você deve se registrar para jogar no torneio. Você será cobrado a plasma quando o torneio começar, mas você pode cancelar o registro antes que ele comece. O torneio começará quando houver pelo menos %d participantes.</string>
+    <string name="TourneyDescription">Você deve se registrar para jogar o torneio. Você será cobrado em plasma quando o torneio começar, mas, você pode cancelar o registro antes que ele comece. O torneio começará quando houver pelo menos %d participantes.</string>
     <string name="Register">Registrar</string>
 
     <string name="Registered">Registrado</string>
