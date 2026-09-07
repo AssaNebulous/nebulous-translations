@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070913" />
+    <title>VAZ.IO — Arena Aurora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Syne:wght@700;800&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <main class="shell">
+      <nav class="topbar" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="VAZ.IO início"><i></i>VAZ<span>.IO</span></a>
+        <div class="nav-links">
+          <a class="active" href="#arena">Arena</a><a href="#temporada">Temporada</a><a href="#clan">Clã</a><a href="#ranking">Ranking</a>
+        </div>
+        <div class="wallet"><span class="online-dot"></span><strong>2.480</strong><small>Vazium</small><button class="avatar" aria-label="Abrir perfil">VR</button></div>
+      </nav>
+
+      <section class="hero" id="inicio">
+        <div class="hero-copy"><p class="eyebrow">TEMPORADA 01 <b>•</b> ABERTA AGORA</p><h1>Domine a<br /><em>corrente.</em></h1><p class="lede">Uma arena de células competitiva, construída para precisão. Cresça, divida, sobreviva e deixe sua marca no vazio.</p><div class="actions"><a class="button primary" href="#arena">Entrar na arena <span>→</span></a><button class="button ghost" id="soundButton">◉ Som ambiente</button></div><div class="proof"><div class="avatars"><b>O</b><b>A</b><b>S</b><b>+</b></div><span><strong>18.742 jogadores</strong><br />online agora</span></div></div>
+        <aside class="season-card" id="temporada"><div class="orbit o1"></div><div class="orbit o2"></div><p>ATUALIZE SEU ARSENAL</p><h2>PASSE<br /><span>NEON</span></h2><div class="season-footer"><span>NÍVEL <b>24</b></span><div class="progress"><i></i></div><button aria-label="Ver passe">↗</button></div></aside>
+      </section>
+
+      <section class="arena-section" id="arena">
+        <div class="section-heading"><div><p class="eyebrow">AO VIVO</p><h2>Arena <em>central</em></h2></div><div class="arena-stats"><span><i class="pulse"></i> 248 EM PARTIDA</span><span>REGIÃO: SAO PAULO</span></div></div>
+        <div class="arena-layout"><div class="game-wrap"><canvas id="game" aria-label="Prévia jogável da arena VAZ.IO"></canvas><div class="arena-hud"><span>PRÁTICA</span><strong>MASSA <b id="mass">240</b></strong><button id="splitButton">DIVIDIR <kbd>ESPAÇO</kbd></button></div><div class="controls-hint">Mova o cursor para navegar <span>•</span> Clique para ejetar massa</div></div>
+          <aside class="leaderboard"><div class="board-head"><div><p class="eyebrow">CLASSIFICAÇÃO</p><h3>Topo da arena</h3></div><button>•••</button></div><ol><li><span>01</span><b class="rank-avatar pink">K</b><strong>KIRA</strong><em>8.240</em></li><li><span>02</span><b class="rank-avatar blue">N</b><strong>N0VA</strong><em>6.890</em></li><li><span>03</span><b class="rank-avatar gold">R</b><strong>RAVEN</strong><em>5.420</em></li><li class="you"><span>17</span><b class="rank-avatar violet">V</b><strong>VOCÊ</strong><em id="score">240</em></li></ol><button class="full-ranking">Ver ranking completo <span>→</span></button></aside>
+        </div>
+      </section>
+
+      <section class="lower-grid"><article class="clan-card" id="clan"><div class="clan-mark">△</div><div><p class="eyebrow">SUA CONSTELAÇÃO</p><h2>VOID RUNNERS</h2><p>42 membros <span>•</span> Nível 18</p></div><button>ABRIR CLÃ <span>→</span></button></article><article class="mission-card"><p class="eyebrow">MISSÃO DIÁRIA</p><h3>Absorva 2.500 cintilas</h3><div><span>1.840 / 2.500</span><div class="progress"><i></i></div><b>+ 120 <small>V</small></b></div></article></section>
+      <footer><span>© 2026 VAZ.IO</span><span>Feito para competir. Sem vantagens pagas.</span><span>STATUS <i class="online-dot"></i> OPERACIONAL</span></footer>
+    </main><script src="app.js"></script>
+  </body>
+</html>
